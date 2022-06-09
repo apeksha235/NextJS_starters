@@ -1,0 +1,11 @@
+.link:hover,
+.link:focus,
+.link:active {
+  color: #4079ba;
+  border-color: #4079ba;
+  text-decoration: underline;
+}
+
+.img{
+    padding:15px !important;
+}
