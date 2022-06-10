@@ -1,11 +1,19 @@
 .link:hover,
 .link:focus,
 .link:active {
-  color: #4079ba;
-  border-color: #4079ba;
+  color: #16222e;
+  border-color: #16222e;
   text-decoration: underline;
 }
 
 .img{
     padding:15px !important;
+}
+
+.link h4{
+    margin-left: 5px;
+}
+
+.css-s21cis{
+    opacity: 40%;
 }

@@ -2,17 +2,18 @@ import React from 'react'
 import Image from 'next/image'
 import Box from '@mui/material/Box';
 import styles from '../styles/News.module.css'
-  
-const News = () => {
-  
+import { useState } from 'react'
+
+export default function News(){
+
   return (
-    <div>
+    <>
     <Box 
     border={2} 
     borderColor="black"
-    height={575} 
-    width={450}
-    bgcolor='#FCF9C6'
+    height={580} 
+    width={440}
+    bgcolor='#4B5D67'
     color="black"
     alignItems="center"
     ml={130} >
@@ -30,8 +31,6 @@ const News = () => {
             <h4>All of the Upcoming Anime Confirmed for 2022 So Far &rarr;</h4>
           </a>
     </Box>
-    </div>
+    </>
   );
 }
-  
-export default News;

@@ -4,8 +4,10 @@ import Navbar from "../components/nav.js";
 import Cards from "../components/cards.js";
 import News from "../components/newsletter.js";
 
+
 export default function Home() {
   return (
+    
     <div className={styles.container}>
       <Head>
         <title>AniZone</title>
@@ -13,8 +15,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <center><h2>Welcome to AniZone!</h2></center>
-      <Cards />
       <News />
+      <Cards/>
     </div>
   )
 }
