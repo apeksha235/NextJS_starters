@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <center><h2>Welcome to AniZone!</h2></center>
-      <News />
       <Cards/>
+      <News />
     </div>
   )
 }
